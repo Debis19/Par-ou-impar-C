@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    
+    //entrada
+    
+    printf("Digite um valor para n: ");
+    scanf ("%d", &n);
+    
+    //saida
+    
+    if (n%2 == 0){
+      printf("o numero é par");
+    }
+    else {
+        printf ("O numero é impar");
+    }
+    
+    return 0;
+}
